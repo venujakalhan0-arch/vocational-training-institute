@@ -1,0 +1,194 @@
+/* General Layout */
+body {
+  font-family: Arial, sans-serif;
+  background: #ccccccd5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+/* Header */
+.header {
+  background: #20c997;
+  color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.topnav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+.btn-logout {
+  background: #ef4444;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+/* Cards */
+.card {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Profile Section */
+.profile-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-info img {
+    height: 100%;
+    width: auto;
+  border: 3px solid #20c997;
+}
+
+/* Courses Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #20c997;
+  color: #fff;
+}
+
+/* Buttons */
+.btn-small {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 2px;
+  background: #20c997;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-small:hover {
+  background: #008080;
+}
+
+/* Instructor Dashboard & View Students Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7fafc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #20c997;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background: #fff;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #008080;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+}
+
+th {
+  background: #20c997;
+  color: #fff;
+}
+
+.btn-small {
+  background: #20c997;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-small:hover {
+  background: #008080;
+}
+
+.btn-logout {
+  background: #ef4444;
+  padding: 8px 14px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-logout:hover {
+  background: #b91c1c;
+}
