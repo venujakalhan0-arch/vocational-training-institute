@@ -1,0 +1,71 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #20c997;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.btn-back {
+  background: #fff;
+  color: #20c997;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-back:hover {
+  background: #008080;
+  color: white;
+}
+
+.materials-section {
+  background: #fff;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #20c997;
+  color: white;
+}
+
+.btn-download {
+  background: #20c997;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-download:hover {
+  background: #128f76;
+}

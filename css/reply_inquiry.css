@@ -1,0 +1,54 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f7f9;
+}
+
+.reply-container {
+  background: white;
+  width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #008080;
+}
+
+label {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn-submit, .btn-back {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-submit {
+  background: #008080;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: #006666;
+}
+
+.btn-back {
+  background: #888;
+  margin-left: 10px;
+}

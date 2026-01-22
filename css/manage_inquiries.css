@@ -1,0 +1,61 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f7f9;
+}
+
+.inquiry-admin-container {
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: #008080;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background: #008080;
+  color: white;
+}
+
+.btn-reply, .btn-delete {
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.btn-reply { background: #008080; }
+.btn-reply:hover { background: #006666; }
+
+.btn-delete { background: #d9534f; }
+.btn-delete:hover { background: #b52b27; }
+
+.btn-back {
+  background: #6c757d;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-back:hover {
+  background: #495057;
+}
+
+

@@ -1,0 +1,51 @@
+.admin-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.btn, .btn-secondary {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.btn-secondary {
+  background-color: #ccc;
+  color: black;
+  margin-left: 10px;
+}
+img {
+  margin-top: 8px;
+  border-radius: 6px;
+}
